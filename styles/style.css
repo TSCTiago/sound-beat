@@ -1,4 +1,149 @@
-body{
+@font-face {
+    font-family: ErasLight;
+    src: url(../assets/fonts/ErasLightITC.ttf);
+}
+
+body {
     padding: 0;
     margin: 0;
+    font-family: ErasLight, sans-serif;
+}
+.btn-cart {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #0e0e0e96;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+.btn-cart:hover{
+    background-color: rgba(255, 255, 255, 0.548);
+    color: #0e0e0e;
+}
+
+.container-fluid {
+    padding: 3px;
+
+}
+
+.navbar {
+    opacity: 0.7;
+    background: #0e0e0e;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    font-family: ErasLight, sans-serif;
+}
+
+.items-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.link-nav {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+}
+
+.link-nav:hover{
+    /* color: #9e2b96; */
+    color: #fa02e9;
+}
+
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.home-section {
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/pictures/background-image.png');
+    background-size: cover;
+    flex-direction: row;
+    /* align-items: ; */
+    align-content: space-around ;
+    justify-content: flex-start;
+}
+
+
+.slogan {
+    font-family: ErasLight, sans-serif;
+    color: white;
+    padding-top: 100px;
+    /* margin-bottom: 100px; */
+    margin-left: 50px;
+
+}
+
+.slogan h1 {
+    text-transform: uppercase;
+    font-size: 7rem;
+    margin-left: 25px;
+}
+
+.slogan h2 {
+    margin-left: 100px;
+    font-size: 1.8rem;
+}
+
+.slogan #alive {
+    margin-left: 150px;
+}
+
+
+.links {
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-top: 300px;
+    /* opacity: 0; */
+}
+
+.links a {
+    font-family: ErasLight, sans-serif;
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: inline-block;
+}
+.links button{
+    font-family: ErasLight, sans-serif;
+}
+.btn-link {
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 7px;
+}
+
+.btn-link:hover{
+    background-color: white;
+    color: black!important;
+}
+
+.links a span{
+    margin-left: 5px;
+}
+@media screen and (max-width: 1000px) {
+    .items-nav {
+        display: block;
+    }
 }

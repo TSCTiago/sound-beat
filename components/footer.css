@@ -108,6 +108,7 @@ footer ul {
     margin-left: 2px;
     text-decoration: none;
     font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
 }
 
 .social-links a:hover{

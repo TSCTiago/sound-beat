@@ -154,7 +154,7 @@ body {
 
 /* Segunda sessão da página */
 
-.sample-section{
+.sample-section {
     width: 100vw;
     height: auto;
     background: url('../assets/pictures/background-image2.png') #181818;
@@ -166,44 +166,60 @@ body {
     /* margin-top: 10px; */
 }
 
-.nav-link{
+.nav-link {
     /* background-color: aquamarine; */
     font-family: ErasLight, sans-serif;
-    font-size: 2rem!important;
-    font-weight: bold!important;
-    color: white!important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: white !important;
     margin: 0 20px;
     margin-top: 30px;
 }
-.nav-link.active{
-    background-color: #7a2174!important;
-}
-.glr{
-    padding:0 350px!important;
+
+.nav-link.active {
+    background-color: #7a2174 !important;
 }
 
-.signature{
+.glr {
+    padding: 0 350px !important;
+}
+
+/* Sessão de planos de assinatura */
+
+.signature {
     width: 100vw;
-    height: 100vh;
     background: url('../assets/pictures/background-image3.png') #181818;
+    padding: 100px;
+    text-align: center;
 }
 
-#pricing{
-    padding:100px;
-    text-align: center;
-  }
-  
-  .price-text{
-    font-size:3rem;
+.signature h2, .signature p{
+    font-family: ErasLight, sans-serif;
+    font-weight: bold;
+}
+.price-text {
+    font-size: 3rem;
     line-height: 1.5;
-  }
-  
-  .pricing-column{
-    padding:3% 2%;
-  }
-  #pricing .btn{
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.signature .btn {
     width: 100%;
-  } 
+}
+
+.card {
+    /* font-family: ErasLight, sans-serif; */
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 1000px) {
     .items-nav {
         display: block;

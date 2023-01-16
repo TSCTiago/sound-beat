@@ -194,10 +194,12 @@ body {
     text-align: center;
 }
 
-.signature h2, .signature p{
+.signature h2,
+.signature p {
     font-family: ErasLight, sans-serif;
     font-weight: bold;
 }
+
 .price-text {
     font-size: 3rem;
     line-height: 1.5;
@@ -219,6 +221,23 @@ body {
 
 .card:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .glr {
+        padding: 0 150px !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .glr {
+        padding: 0 20px !important;
+    }
+    .price-mark{
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {

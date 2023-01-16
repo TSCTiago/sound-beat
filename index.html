@@ -27,10 +27,11 @@
         <nav class="navbar position-fixed navbar-expand-lg">
             <div class="container-fluid">
                 <div>
-                    <a href="#"><img class="logo" src="assets/pictures/logo.png" alt="logo"></a>
+                    <a href="#" class="logo"><img src="assets/pictures/logo.png" alt="logo"></a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse items-nav" id="navbarNav">
@@ -53,7 +54,8 @@
                             <span class="fa fa-search"></span>
                             <input placeholder="Pesquisar" class="textfield">
                         </div>
-                        <a href="pages/login.html"><button type="button" class="btn btn-outline-light btn-lg">Entrar</button></a>
+                        <a href="pages/login.html" id="btn-login"><button type="button"
+                                class="btn btn-outline-light btn-lg">Entrar</button></a>
                     </div>
                 </div>
             </div>
@@ -73,27 +75,23 @@
             <a href="#" class="btn-link">Ver mais</a>
             <a href="#"> ou <span>Fale conosco</span> </a>
         </div>
-        <!-- <div class="links">
-            <button type="button" class="btn btn-outline-light btn-lg">Ver mais</button>
-            <a href="#">Ou Fale conosco</a>
-        </div> -->
     </section>
 
     <section class="sample-section">
         <div id="albums">
             <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                    <button class="tabs active" id="pills-home-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
                         aria-selected="true">Estilos Musicais</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                    <button class="tabs" id="pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
                         aria-selected="false">Mais Populares</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                    <button class="tabs" id="pills-contact-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
                         aria-selected="false">Recomendados</button>
                 </li>
@@ -102,9 +100,9 @@
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
                     tabindex="0">
                     <div class="container-fluid">
-                        <div class="glr">
+                        <div class="gallery">
                             <div class="row">
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-1.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -122,7 +120,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-1.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -140,7 +138,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-1.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -158,7 +156,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-1.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -176,7 +174,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-1.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -194,7 +192,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-1.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -220,9 +218,9 @@
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
                     tabindex="0">
                     <div class="container-fluid">
-                        <div class="glr">
+                        <div class="gallery">
                             <div class="row">
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-2.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -240,7 +238,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-2.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -258,7 +256,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-2.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -276,7 +274,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-2.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -294,7 +292,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-2.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -312,7 +310,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-2.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -338,9 +336,9 @@
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
                     tabindex="0">
                     <div class="container-fluid">
-                        <div class="glr">
+                        <div class="gallery">
                             <div class="row">
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-3.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -358,7 +356,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-3.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -376,7 +374,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-3.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -394,7 +392,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-3.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -412,7 +410,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-3.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -430,7 +428,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 mb-4">
+                                <div class="col-6 col-md-4 mb-4">
                                     <div class="bg-white rounded shadow-sm">
                                         <img src="assets/pictures/teste/img-3.png" alt=""
                                             class="img-fluid card-img-top rounded">
@@ -470,7 +468,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h2 class="price-text">R$10,00</h2>
+                        <h2 class="price-text">R$9,90</h2>
                         <p>Desfrute de toda a nossa galeria de música</p>
                         <p>Ouça músicas na ordem que quiser, desfrute do melhor que temos para você</p>
                         <p>Conta Premium - somente 1 user</p>
@@ -487,7 +485,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h2 class="price-text">R$30,00</h2>
+                        <h2 class="price-text">R$29,90</h2>
                         <p>Desfrute de toda a nossa galeria de música</p>
                         <p>Músicas sem anúncios, no modo offline e na ordem que você quiser</p>
                         <p>Conta Premium - até 2 users</p>
@@ -504,7 +502,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h2 class="price-text">R$100,00</h2>
+                        <h2 class="price-text">R$99,90</h2>
                         <p>Desfrute de toda a nossa galeria de música</p>
                         <p>Sound Beat Kids: um aplicativo separado, feito especialmente para crianças</p>
                         <p>Crie e customize suas próprias playlists</p>
@@ -525,7 +523,8 @@
 
                         <div class="col-xs-12 col-sm-6 col-md-3">
                             <div class="widget subscribe">
-                                <h5 class="widget-title">SOUND BEAT<span></span></h5>
+                                <h5 class="widget-title"><img src="assets/pictures/logo.png" alt="" width="30"> SOUND
+                                    BEAT<span></span></h5>
                                 <p>Conecte-se com o presente,
                                     viva com o ritmo do futuro!</p>
                             </div>
@@ -568,7 +567,8 @@
                                 <h5 class="widget-title">Fale conosco<span></span></h5>
                                 <p>Entre em contato com a nossa equipe para tirar dúvidas!</p>
                                 <div class="emailfield">
-                                    <textarea cols="30" rows="3" class="speak" placeholder="Insira aqui seu comentário"></textarea>
+                                    <textarea cols="30" rows="3" class="speak"
+                                        placeholder="Insira aqui seu comentário"></textarea>
                                     <!-- <input type="email" name="email" > -->
                                     <button type="button" class="btn btn-light">Enviar</button>
 
@@ -582,6 +582,7 @@
                 <div class="footer-copyright">
                     <p>Sound Beat © 2023. All rights reserved.</p>
                 </div>
+            </div>
         </footer>
     </section>
 

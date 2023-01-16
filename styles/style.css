@@ -45,11 +45,15 @@ body {
     font-size: 1.2rem;
     width: 100%;
     font-family: ErasLight, sans-serif;
+    width: 100%;
 }
 
 .items-nav {
     display: flex;
     justify-content: space-between;
+}
+.navbar-toggler{
+    background: white!important;
 }
 
 .btn {
@@ -72,7 +76,7 @@ body {
 }
 
 
-.logo {
+.logo img {
     width: 40px;
     height: auto;
 }
@@ -81,7 +85,7 @@ body {
 
 .home-section {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background: url('../assets/pictures/background-image.png');
     background-size: cover;
     flex-direction: row;
@@ -157,7 +161,7 @@ body {
 
 .sample-section {
     width: 100vw;
-    height: auto;
+    /* height: auto; */
     background: url('../assets/pictures/background-image2.png') #181818;
     background-repeat: no-repeat;
     display: flex;
@@ -167,21 +171,24 @@ body {
     /* margin-top: 10px; */
 }
 
-.nav-link {
-    /* background-color: aquamarine; */
+.tabs {
     font-family: ErasLight, sans-serif;
-    font-size: 2rem !important;
-    font-weight: bold !important;
-    color: white !important;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: none;
     margin: 0 20px;
     margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
 }
 
-.nav-link.active {
-    background-color: #7a2174 !important;
+.tabs.active {
+    background-color: #7a2174;
 }
 
-.glr {
+.gallery {
     padding: 0 350px !important;
 }
 
@@ -224,24 +231,72 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .glr {
+    .gallery {
         padding: 0 150px !important;
     }
-    
-}
 
-
-@media screen and (max-width: 800px) {
-    .glr {
-        padding: 0 20px !important;
-    }
-    .price-mark{
-        font-size: 0.8rem;
-    }
 }
 
 @media screen and (max-width: 1000px) {
     .items-nav {
         display: block;
+    }
+
+    .textfield {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        margin: 10px 0;
+    }
+
+    #btn-login {
+        margin-top: 10px;
+    }
+
+    .logo img {
+        margin-left: 1rem;
+    }
+    .tabs{
+        font-size: 1.5rem;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gallery {
+        padding: 0 20px !important;
+    }
+
+    .price-mark {
+        font-size: 0.8rem;
+    }
+
+    .slogan h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .links {
+        margin: 0;
+        text-align: center;
+    }
+
+    .slogan h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .slogan #alive {
+        margin: 0;
+    }
+    .signature{
+        padding: 20px;
     }
 }

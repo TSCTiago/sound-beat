@@ -80,12 +80,16 @@ body {
     width: 40px;
     height: auto;
 }
-
+.search-responsive{
+    margin-right: 20px;
+    margin-top: 5px;
+    display: none;
+}
 /* Primeira sessão da página */
 
 .home-section {
     width: 100vw;
-    /* height: 100vh; */
+    height: 100vh;
     background: url('../assets/pictures/background-image.png');
     background-size: cover;
     flex-direction: row;
@@ -266,6 +270,9 @@ body {
     }
     .card{
         width: 100%;
+    }
+    .search-responsive{
+        display: block;
     }
 }
 

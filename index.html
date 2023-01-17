@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="components/input.css">
     <link rel="stylesheet" href="components/footer.css">
+    <link rel="stylesheet" href="components/stars.css">
 
     <link rel="shortcut icon" href="assets/pictures/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,11 +30,15 @@
                 <div>
                     <a href="#" class="logo"><img src="assets/pictures/logo.png" alt="logo"></a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="d-flex">
+                    <div class="search-responsive">
+                        <span class="fa fa-search"></span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse items-nav" id="navbarNav">
                     <ul class="navbar-nav">
                         <li>
@@ -54,6 +59,7 @@
                             <span class="fa fa-search"></span>
                             <input placeholder="Pesquisar" class="textfield">
                         </div>
+
                         <a href="pages/login.html" id="btn-login"><button type="button"
                                 class="btn btn-outline-light btn-lg">Entrar</button></a>
                     </div>
@@ -81,18 +87,18 @@
         <div id="albums">
             <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="tabs active" id="pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                        aria-selected="true">Estilos Musicais</button>
+                    <button class="tabs active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">Estilos
+                        Musicais</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="tabs" id="pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="false">Mais Populares</button>
+                    <button class="tabs" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Mais
+                        Populares</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="tabs" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    <button class="tabs" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                        type="button" role="tab" aria-controls="pills-contact"
                         aria-selected="false">Recomendados</button>
                 </li>
             </ul>
@@ -559,6 +565,16 @@
                                 <a href="#"><i class="bi bi-youtube"></i></i> </a>
                                 <a href="#"><i class="bi bi-twitter"></i></a>
                                 <a href="#"><i class="bi bi-instagram"></i></a>
+                            </div>
+                            <div class="widget">
+                                <h5 class="widget-title">Avalie-nos<span></span></h5>
+                                <div class="rating">  
+                                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                                </div>
                             </div>
                         </div>
 

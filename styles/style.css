@@ -240,6 +240,7 @@ body {
     height: 100vh;
     padding: 20px;
     background: url('../assets/pictures/background-carousel.jpeg');
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -293,9 +294,16 @@ body {
     .search-responsive{
         display: block;
     }
+    .search-responsive:hover{
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    .home-section{
+        background-position: -600px;
+    
+    }
     .gallery {
         padding: 0 20px !important;
     }
@@ -304,25 +312,29 @@ body {
         font-size: 0.8rem;
     }
 
-    .slogan h1 {
-        font-size: 3rem;
-        margin: 0;
-    }
-
-    .links {
-        margin: 0;
-        text-align: center;
-    }
-
-    .slogan h2 {
-        margin: 0;
-        text-align: center;
-    }
+   
 
     .slogan #alive {
         margin: 0;
     }
     .signature{
         padding: 20px;
+    }
+
+    @media screen and (max-width: 500px){
+        .slogan h1 {
+            font-size: 3.1rem;
+            margin: 20px auto;
+        }
+    
+        .links {
+            margin: 250px auto;
+            text-align: center;
+        }
+    
+        .slogan h2 {
+            margin: 20px auto;
+            font-size: 1.6rem;
+        }
     }
 }

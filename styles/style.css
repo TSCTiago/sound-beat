@@ -238,8 +238,8 @@ body {
 
 .suggestions{
     width: 100vw;
-    height: 100vh;
-    padding: 20px;
+    /* height: 100vh; */
+    padding: 20px 20px 90px;
     background: url('../assets/pictures/background-carousel.jpeg');
     background-attachment: fixed;
     background-size: cover;
@@ -308,12 +308,12 @@ body {
     .gallery {
         padding: 0 20px !important;
     }
-
+    .carousel-item img{
+        width: 100%;
+    }
     .price-mark {
         font-size: 0.8rem;
     }
-
-   
 
     .slogan #alive {
         margin: 0;

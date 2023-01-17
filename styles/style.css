@@ -63,7 +63,7 @@ body {
 
 .link-nav {
     text-decoration: none;
-    margin: 30px;
+    margin: 20px;
     color: white;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
@@ -90,7 +90,7 @@ body {
 .home-section {
     width: 100vw;
     height: 100vh;
-    background: url('../assets/pictures/background-image.png');
+    background: url('../assets/pictures/backgrounds/background-image.png');
     background-size: cover;
     flex-direction: row;
     /* align-items: ; */
@@ -167,7 +167,7 @@ body {
 .sample-section {
     width: 100vw;
     /* height: auto; */
-    background: url('../assets/pictures/background-image2.png') #181818;
+    background: url('../assets/pictures/backgrounds/background-image2.png') #181818;
     background-repeat: no-repeat;
     display: flex;
     background-size: contain;
@@ -202,7 +202,7 @@ body {
 
 .signature {
     width: 100vw;
-    background: url('../assets/pictures/background-image3.png') #181818;
+    background: url('../assets/pictures/backgrounds/background-image3.png') #181818;
     padding: 100px;
     text-align: center;
 }
@@ -240,7 +240,7 @@ body {
     width: 100vw;
     /* height: 100vh; */
     padding: 20px 20px 90px;
-    background: url('../assets/pictures/background-carousel.jpeg');
+    background: url('../assets/pictures/backgrounds/background-carousel.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

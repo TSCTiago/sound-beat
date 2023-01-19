@@ -200,12 +200,16 @@ body {
 .gallery {
     padding: 0 350px !important;
 }
-.price-mark, .bag{
+
+.price-mark,
+.bag {
     font-size: 1rem;
 }
-.interest{
+
+.interest {
     font-size: 0.8rem;
 }
+
 /* Sessão de planos de assinatura */
 
 .signature {
@@ -332,9 +336,11 @@ h5 {
     .price-mark {
         font-size: 0.8rem;
     }
-.bag{
-    font-size: 0.6;
-}
+
+    .bag {
+        font-size: 0.6;
+    }
+
     .interest {
         font-size: 0.5rem;
     }
@@ -343,9 +349,15 @@ h5 {
         margin: 0;
     }
 
+    .links {
+        margin-top: 200px;
+    }
+
     .signature {
         padding: 20px;
     }
+
+
 
     @media screen and (max-width: 500px) {
         .slogan h1 {

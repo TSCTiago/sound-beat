@@ -52,8 +52,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.navbar-toggler{
-    background: white!important;
+
+.navbar-toggler {
+    background: white !important;
 }
 
 .btn {
@@ -80,11 +81,13 @@ body {
     width: 40px;
     height: auto;
 }
-.search-responsive{
+
+.search-responsive {
     margin-right: 20px;
     margin-top: 5px;
     display: none;
 }
+
 /* Primeira sessão da página */
 
 .home-section {
@@ -197,7 +200,12 @@ body {
 .gallery {
     padding: 0 350px !important;
 }
-
+.price-mark, .bag{
+    font-size: 1rem;
+}
+.interest{
+    font-size: 0.8rem;
+}
 /* Sessão de planos de assinatura */
 
 .signature {
@@ -208,7 +216,9 @@ body {
 }
 
 .signature h2,
-.signature p,  .suggestions h1,h5 {
+.signature p,
+.suggestions h1,
+h5 {
     font-family: ErasLight, sans-serif;
     font-weight: bold;
 }
@@ -236,7 +246,7 @@ body {
     transform: scale(1.1);
 }
 
-.suggestions{
+.suggestions {
     width: 100vw;
     /* height: 100vh; */
     padding: 20px 20px 90px;
@@ -246,15 +256,16 @@ body {
     background-repeat: no-repeat;
 }
 
-.carousel-item img{
+.carousel-item img {
     width: 50%;
     border-radius: 10px;
     /* border-style: hidden; */
     /* height: 500px; */
     text-align: center;
     margin: 0 auto;
-    
+
 }
+
 @media screen and (max-width: 1200px) {
     .gallery {
         padding: 0 150px !important;
@@ -286,53 +297,67 @@ body {
     .logo img {
         margin-left: 1rem;
     }
-    .tabs{
+
+    .tabs {
         font-size: 1.5rem;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
-    .search-responsive{
+
+    .search-responsive {
         display: block;
     }
-    .search-responsive:hover{
+
+    .search-responsive:hover {
         cursor: pointer;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .home-section{
+    .home-section {
         background-position: -600px;
-    
+
     }
+
     .gallery {
-        padding: 0 20px !important;
+        padding: 0 !important;
     }
-    .carousel-item img{
+
+    .carousel-item img {
         width: 100%;
     }
+
     .price-mark {
         font-size: 0.8rem;
+    }
+.bag{
+    font-size: 0.6;
+}
+    .interest {
+        font-size: 0.5rem;
     }
 
     .slogan #alive {
         margin: 0;
     }
-    .signature{
+
+    .signature {
         padding: 20px;
     }
 
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 500px) {
         .slogan h1 {
             font-size: 3.1rem;
             margin: 20px auto;
         }
-    
+
         .links {
             margin: 250px auto;
             text-align: center;
         }
-    
+
         .slogan h2 {
             margin: 20px auto;
             font-size: 1.6rem;

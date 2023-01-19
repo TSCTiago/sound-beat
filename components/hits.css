@@ -26,15 +26,17 @@
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    height: 600px;
+    height: 550px;
     margin: 0 30px;
 }
 
 
 .new-hits {
-    height: 650px;
-    /* background: #181818cc; */
-    background-color: #7a217a;
+    height: 600px;
+    background-color: #000000d6;
+    /* background-color: #7a217a; */
+    color: #ef41ef;
+    border: 5px solid #b822b8;
 }
 
 .header-hits {
@@ -54,7 +56,8 @@
 .hits-ul li {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 10px;
     margin-right: 15%;
     border: 1px solid white;
     border-top: none;
@@ -77,11 +80,12 @@
 
 .new-hits i:hover {
     cursor: pointer;
-    color: red;
+    color: #810081;
 }
 
 .hits-ul li img {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .hits-ul li h2 {

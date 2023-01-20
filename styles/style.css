@@ -254,7 +254,6 @@ h5 {
 
 .suggestions {
     width: 100vw;
-    /* height: 100vh; */
     padding: 20px 20px 90px;
     background: url('../assets/pictures/backgrounds/background-carousel.jpeg');
     background-attachment: fixed;
@@ -265,8 +264,6 @@ h5 {
 .carousel-item img {
     width: 50%;
     border-radius: 10px;
-    /* border-style: hidden; */
-    /* height: 500px; */
     text-align: center;
     margin: 0 auto;
 

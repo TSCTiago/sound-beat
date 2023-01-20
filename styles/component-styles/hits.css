@@ -1,7 +1,5 @@
 .hits {
     width: 100vw;
-    /* height: 100vh;; */
-    /* background: url('/assets/pictures/backgrounds/background-image.pngw'); */
     background: url('/assets/pictures/backgrounds/background-image4.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,14 +13,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin: auto 0; */
     padding: 20px ;
-    /* margin-top: 130px; */
 }
 
 .hits-week,
 .new-hits {
-    /* background-color: #7a217a; */
     background-color: #181818cc;
     border-radius: 5px;
     padding: 10px;
@@ -35,7 +30,6 @@
 .new-hits {
     height: 600px;
     background-color: #000000d6;
-    /* background-color: #7a217a; */
     color: #ef41ef;
     border: 5px solid #b822b8;
 }

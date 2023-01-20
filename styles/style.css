@@ -1,6 +1,6 @@
 @font-face {
     font-family: ErasLight;
-    src: url(../assets/fonts/ErasLightITC.ttf);
+    src: url('../assets/fonts/ErasLightITC.ttf');
 }
 
 body {
@@ -205,7 +205,9 @@ body {
 .bag {
     font-size: 1.5rem;
 }
-
+.bag:hover{
+    color: #7a2174!important;
+}
 .interest {
     font-size: 0.8rem;
 }

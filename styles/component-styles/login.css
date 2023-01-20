@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: ErasLight;
-    src: url(../assets/fonts/ErasLightITC.ttf);
+    src: url('../assets/fonts/ErasLightITC.ttf');
 }
 
 body {

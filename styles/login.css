@@ -18,7 +18,7 @@ body * {
 .main-login {
     width: 100vw;
     height: 100vh;
-    background: url('/assets/pictures/backgrounds/background-login.png');
+    background: url('../assets/pictures/backgrounds/background-login.png');
     background-size: cover;
     background-position: center;
     display: flex;

@@ -268,7 +268,11 @@ h5 {
     margin: 0 auto;
 
 }
-
+.carousel-caption h5{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
 @media screen and (max-width: 1200px) {
     .gallery {
         padding: 0 150px !important;

@@ -1,8 +1,13 @@
 .hits {
     width: 100vw;
     /* height: 100vh;; */
+<<<<<<< HEAD
     /* background: url('/assets/pictures/backgrounds/background-image.pngw'); */
     background: url('/assets/pictures/backgrounds/background-image.png');
+=======
+    /* background: url('/assets/pictures/backgrounds/background-image.png'); */
+    background: url('/assets/pictures/backgrounds/background-image4.png');
+>>>>>>> 9314641c247d9a47d3209bbf2762ca2ef6f465d6
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

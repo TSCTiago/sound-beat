@@ -1,13 +1,3 @@
-.hits {
-    width: 100vw;
-    background: url('/assets/pictures/backgrounds/background-image4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-family: ErasLight;
-    text-align: center;
-    padding: 70px 0;
-}
 
 .hits-cards {
     display: flex;

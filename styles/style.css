@@ -8,7 +8,17 @@ body {
     margin: 0;
     font-family: ErasLight, sans-serif;
     overflow-x: hidden;
-    /* background-color: #181818!important; */
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: url('/assets/pictures/backgrounds/background-login.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-cart {
@@ -210,6 +220,17 @@ body {
 }
 .interest {
     font-size: 0.8rem;
+}
+
+.hits {
+    width: 100vw;
+    background: url('../assets/pictures/backgrounds/background-image4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: ErasLight;
+    text-align: center;
+    padding: 70px 0;
 }
 
 /* Sessão de planos de assinatura */

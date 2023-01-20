@@ -6,6 +6,7 @@
 }
 
 body {
+    padding: 0;
     margin: 0px;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -14,25 +15,8 @@ body * {
     box-sizing: border-box;
 }
 
-.main-login {
-    width: 100vw;
-    /*Largura do centro até a borda (width)*/
-    height: 100vh;
-    /*Largura do centro até a borda (height)*/
-    background: url('/assets/pictures/backgrounds/background-login.png');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    /*As Div's ficam lado a lado (flex)*/
-    justify-content: center;
-    /*Justifica tudo no centro (eixo x)*/
-    align-items: center;
-    /*Justifica tudo no centro (eixo y)*/
-}
-
 .left-login {
     width: 50vw;
-    height: 00vh;
     display: flex;
     justify-content: center;
     align-items: center;

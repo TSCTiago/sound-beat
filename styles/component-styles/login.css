@@ -19,7 +19,7 @@ body * {
     /*Largura do centro até a borda (width)*/
     height: 100vh;
     /*Largura do centro até a borda (height)*/
-    background-image: url('../assets/pictures/backgrounds/background-login.png');
+    background: url('/assets/pictures/backgrounds/background-login.png');
     background-size: cover;
     background-position: center;
     display: flex;
